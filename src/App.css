@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  /* background-color: #222; */
+  background-image: url('./surprise-selfie.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+header {
+  position: relative;
+}
+
+header h1 {
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
